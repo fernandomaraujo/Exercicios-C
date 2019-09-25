@@ -3,8 +3,10 @@ Aqui estará as listas de exercícios de C, da matéria de FAC (Fundamentos de A
 Cada arquivo tem um comentário com a proposta da resolução do exercício.
 
 **Lista 1** <br>
-  > Estruturas de controle: if, else if, switch case<br>
+  > Estruturas de controle: if, else if, switch case
+  <br>
 **Lista 2** <br> 
-   Estruturas de controle: if, else if, switch case<br> <br>
+   > Estruturas de controle: if, else if, switch case
+   <br>
 **Lista 3** <br> 
-  Estrutura de repetição: for
+  > Estrutura de repetição: for
