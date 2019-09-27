@@ -7,3 +7,5 @@ Cada arquivo tem um comentário com a proposta da resolução do exercício.
 > **Lista 2** <br> Estruturas de controle: if, else if, switch case <br>
 
 > **Lista 3** <br> Estrutura de repetição: for
+
+> **Lista 4** <br> Estruturas de repetição: for, while 
