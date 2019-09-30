@@ -9,3 +9,5 @@ Cada arquivo tem um comentário com a proposta da resolução do exercício.
 > **Lista 3** <br> Estrutura de repetição: for
 
 > **Lista 4** <br> Estruturas de repetição: for, while, do while
+
+> **Lista 5** <br> Estruturas de repetição: for, while, do while
