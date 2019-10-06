@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-/* 	QUESTÃO 02: 
+/* 	QUESTÃƒO 02: 
 	Um fazendeiro realizou um
-	tratamento sobre sua plantação de café
+	tratamento sobre sua plantaÃ§Ã£o de cafÃ©
 	que gerou um crescimento constante de C
-	% em sua produção, por ano.
+	% em sua produÃ§Ã£o, por ano.
 	Considerando que atualmente sua
-	produção anual seja de M u.p.,
+	produÃ§Ã£o anual seja de M u.p.,
 	implementar um programa que determine
-	a quantidade de anos necessária para que
-	a produção duplique. */
+	a quantidade de anos necessÃ¡ria para que
+	a produÃ§Ã£o duplique. */
 
 void main() {
 
@@ -26,7 +26,7 @@ void main() {
 	
 	pAnual = m;
 	
-	// faça enquanto a produção ainda não esteja duplicada
+	// faÃ§a enquanto a produÃ§Ã£o ainda nÃ£o esteja duplicada
 	do {
 		rend = (pAnual*c)/100; // 5% de 1000 = 50 -> 5% de 1050 = 52.5 -> ...
 		
