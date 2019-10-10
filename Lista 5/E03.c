@@ -13,7 +13,7 @@ int main() {
 		2 é a base, 4 é o expoente, e 16 é a potência
 	*/
 
-	int i, base, exp, pot=1;
+	int base, exp, pot=1;
 	
 	printf("Informe valor da base: ");
 	scanf("%d", &base);
