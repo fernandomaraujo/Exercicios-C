@@ -13,3 +13,5 @@ Cada arquivo tem um comentário com a proposta da resolução do exercício.
 > **Lista 5** <br> Estruturas de repetição: for, while, do while
 
 > **Lista 6** <br> Estruturas de repetição: for, while, do while
+
+> **Provas* <br> As provas marcadas com AV1 englobam as matérias de estruturas de controle e repetição
