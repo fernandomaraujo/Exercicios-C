@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-/* 	QUEST√O 04: 
-	FaÁa um programa que leia
-	um n˙mero inteiro N e informe se o
-	mesmo È ou n„o primo.
-	Nota: um n˙mero È dito primo quando for
-	divisÌvel apenas por 1 e por ele mesmo. */
+/* 	QUEST√ÉO 04: 
+	Fa√ßa um programa que leia
+	um n√∫mero inteiro N e informe se o
+	mesmo √© ou n√£o primo.
+	Nota: um n√∫mero √© dito primo quando for
+	divis√≠vel apenas por 1 e por ele mesmo. */
 
-	// N„o entrando no mÈrito se 1 È ou n„o primo
+	// N√£o entrando no m√©rito se 1 √© ou n√£o primo
 
 void main() {
 	
@@ -17,17 +17,17 @@ void main() {
 	scanf("%d", &num);
 	
 	/*
-		todo n˙mero È divisÌvel por 1 e ele mesmo,
-		ent„o n„o precisa fazer essa checagem.
-		o for comeÁa no 2, e roda atÈ o valor
-		anterior ao n˙mero E caso o contador
+		todo n√∫mero √© divis√≠vel por 1 e ele mesmo,
+		ent√£o n√£o precisa fazer essa checagem.
+		o for come√ßa no 2, e roda at√© o valor
+		anterior ao n√∫mero E caso o contador
 		esteja zerado
 	*/
 	for(i=2;i<num && (cont==0);i++) {
 		
-		// se numero for divisÌvel por outro
+		// se numero for divis√≠vel por outro
 		if(num%i==0) {
-			cont++; // incrementa contadot
+			cont++; // incrementa contador
 		}
 	}
 	
