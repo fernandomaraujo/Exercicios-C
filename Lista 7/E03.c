@@ -8,8 +8,8 @@ int sequencia(int termo){
 	
 	int i, a, b, fib;
 	
-	a=0;
-	b=1;
+	a = 0;
+	b = 1;
 	
 	// Sequência = 0, 1, 1, 2, 3, 5, 8, 13, ...
 	
@@ -50,6 +50,7 @@ int main(){
 	printf("Informe o termo desejado da sequencia: ");
 	scanf("%d", &n);
 	
+	// A variável t guarda o valor retornado da função
 	t = sequencia(n);
 	
 	printf("%do termo da sequencia de Fibonacci = %d", n, t);
