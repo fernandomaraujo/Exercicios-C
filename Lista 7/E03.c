@@ -39,6 +39,7 @@ int sequencia(int termo){
 		}
 	}
 	
+	// Retornando o último valor guardado na váriavel fib, sendo esse o termo desejado pelo usuário
 	return fib;
 }
 
