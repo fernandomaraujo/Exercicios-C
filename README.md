@@ -16,4 +16,6 @@ Cada arquivo tem um comentário com a proposta da resolução do exercício.
 
 > **Lista 7** <br> Funções
 
+> **Lista 8** <br> Vetores
+
 > **Provas** <br> As provas marcadas com AV1 englobam as matérias de estruturas de controle e repetição
