@@ -26,7 +26,7 @@ int seOrdenado(float vetorB[10]){
 				cont recebe 0, para ordem não crescente 
 				
 				Já usando return, porque caso APENAS UM valor não esteja de forma crescente,
-				isso já quer dizer que o vetor não está ordenado da forma esperada
+				isso JÁ significa que o vetor não está em ordem crescente
 				 */
 			return 0;
 		}
@@ -49,9 +49,9 @@ int main(){
 	res = seOrdenado(vetorA);
 	
 	if(res > 0) {		
-		printf("Ordenado");
+		printf("O vetor esta ordenado de forma crescente");
 		
 	} else {
-		printf("Desordenado");
+		printf("O vetor nao esta ordenado de forma crescente");
 	}
 }
