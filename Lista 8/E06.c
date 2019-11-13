@@ -7,12 +7,9 @@
 	
 	OBS: Considerando que o número exista no vetor */
 	
-void ocorrencias(float a, float b){
+void ocorrencias(float vetor[8], float a, float b){
 	
 	int i;
-	
-	// Preenchendo vetor manualmente
-	float vetor[8] = {9.9, 4.6, 7.9, 8.1, 2.2, 6.9, 3.7, 9.9};
 	
 	for(i=0;i<8;i++){
 		
@@ -21,15 +18,17 @@ void ocorrencias(float a, float b){
 			vetor[i] = b;
 		}
 		
-		// Exibindo, mas caso seja pra retornar os vetores, o código será atualizado
-		printf("%.1f |", vetor[i]);
 	}
 }
 
 
 int main(){
 	
+	int i;
 	float x, y;
+	
+	// Preenchendo vetor manualmente
+	float v[8] = {9.9, 4.6, 7.9, 8.1, 2.2, 6.9, 3.7, 9.9};
 	
 	printf("Substituir o numero: ");
 	scanf("%f", &x);
@@ -37,6 +36,10 @@ int main(){
 	printf("Pelo numero: ");
 	scanf("%f", &y);
 	
+	ocorrencias(v, x ,y);
 	
-	ocorrencias(x,y);
+	for(i=0;i<8;i++){
+		
+		printf("%.1f |", v[i]);
+	}
 }
