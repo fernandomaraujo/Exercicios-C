@@ -8,20 +8,9 @@
 	OBS: Adaptado para 20 valores, mas a lógica 
 	funciona pra quaisquer valores pares. */
 	
-void paresImpares(){
+void paresImpares(int vetor[20], int vImpar[10], int vPar[10]){
 	
-	int i, cont=1, par=0, impar=0;
-	
-	int vetor[20];
-	
-	int vImpar[10], vPar[10];
-	
-	// Preenchendo automáticamente o vetor, com os valores de 1 a 20
-	for(i=0;i<20;i++){
-		
-		vetor[i] = cont++;
-		
-	}
+	int i, par=0, impar=0;
 	
 	// Depois de preenchido o vetor, fazer a checagem de valores pares e impares
 	for(i=0;i<20;i++){
@@ -48,24 +37,35 @@ void paresImpares(){
 		
 	}
 	
-	// Exibindo, mas caso seja pra retornar os vetores, o código será atualizado
+}
+
+
+int main(){
 	
+	int i, cont=0;
+	int v[20]; // variável de entrada
+	int vetImpar[10], vetPar[10]; // variáveis de saída
+	
+	// Preenchendo automáticamente o vetor, com os valores de 1 a 20
+	for(i=0;i<20;i++){
+		
+		vetor[i] = cont++;
+		
+	}
+	
+	// Chamando a função, passando os parâmetros
+	paresImpares(v, vetImpar, vetPar);
+	
+	// Exibindo vetores
 	for(i=0;i<10;i++){
 		
-		printf("%d |", vImpar[i]);
+		printf("%d |", vetImpar[i]);
 	}
 	
 	printf("\n\n");
 	
 	for(i=0;i<10;i++){
 		
-		printf("%d |", vPar[i]);
+		printf("%d |", vetPar[i]);
 	}
-}
-
-
-int main(){
-	
-	// Chamando a função
-	paresImpares();
 }
