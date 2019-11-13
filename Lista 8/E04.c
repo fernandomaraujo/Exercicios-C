@@ -10,19 +10,15 @@
 	2, entre o 3o e o 4o é igual a 3, e assim
 	sucessivamente. */
 	
-void sequencia(){
+void sequencia(int vetor[50]){
 	
 	int i, aux=1, j=1;
-	int vetorA[50];
 	
 	// Percorrendo do indíce 0 a 49 (total de 50 posições)
 	for(i=0;i<50;i++){
 		
 		// Prenchendo vetor com valor atual de aux
-		vetorA[i] = aux;
-		
-		// Exibindo, mas caso seja pra retornar o vetor, o código será atualizado
-		printf("%d | ", vetorA[i]);
+		vetor[i] = aux;
 		
 		// Atualizando valores com o contador j
 		aux = aux + j;
@@ -34,6 +30,15 @@ void sequencia(){
 
 int main(){
 	
-	// Chamando a função
-	sequencia();
+	int i;
+	int v[50];
+	
+	// Chamando a função, passando vetor como parâmetro
+	sequencia(v);
+	
+	// Exibindo vetor
+	for(i=0;i<50;i++){
+		
+		printf("%d |", v[i]);
+	}
 }
