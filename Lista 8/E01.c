@@ -6,18 +6,15 @@
 	em um vetor A. */
 	
 
-int ocorrencias(int x){
+int ocorrencias(int x, int vetor[], int TAM){
 	
 	int i, cont=0;
 	
-	// Vetor de dez posições
-	int vetorA[10] = {1, 2, 3, 9, 7, 20, 20, 90, 85, 9};
-	
 	// Percorrendo do indíce 0 a 9 (total de 10 posições)
-	for(i=0;i<10;i++){
+	for(i=0;i<TAM;i++){
 		
 		// Se encontrar o valor de x, incrementa contador
-		if(vetorA[i] == x){
+		if(vetor[i] == x){
 			cont++;
 		}
 	}
@@ -31,11 +28,14 @@ int main(){
 	
 	int num, total;
 	
+	// Vetor de dez posições
+	int v[10] = {1, 2, 3, 9, 7, 20, 20, 90, 85, 9};
+	
 	printf("Informe inteiro: ");
 	scanf("%d", &num);
 	
-	// Chamando a função passando a varíavel, e guardando seu retorno
-	total = ocorrencias(num);
+	// Chamando a função passando as varíaveis, e guardando seu retorno
+	total = ocorrencias(num, v, 10);
 	
 	printf("Numero de ocorrencias do numero %d no vetor A = %d", num, total);
 }
