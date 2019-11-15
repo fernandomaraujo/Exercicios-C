@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void trocarElementos(float vetorB[6]){
+void trocarElementos(float vetorB[], int TAM){
 	
 	int i;
 	float anterior;
@@ -13,7 +13,7 @@ void trocarElementos(float vetorB[6]){
 		Indice 3 e 4
 		Indice 5 e 6
 	*/
-	for(i=0;i<6;i+=2){	
+	for(i=0;i<TAM;i+=2){	
 		
 		// Guarda o valor do primeiro indice
 		anterior = vetorB[i];
@@ -36,15 +36,15 @@ int main(){
 	int i;
 	
 	// Variável de entrada
-	float vetorA[6] = {2.6, 1, 4.8, 3.9, 6, 5.9};
+	float v[6] = {2.6, 1, 4.8, 3.9, 6, 5.9};
 	
 	// Chamada da função, passando o vetor como parâmetro
-	trocarElementos(vetorA);
+	trocarElementos(v, 6);
 	
 	// Os valores do vetor foram alterados, então vamos os exibir
 	for(i=0;i<6;i++){
 		
-		printf("%.1f ", vetorA[i]);
+		printf("%.1f ", v[i]);
 	}
 	
 }

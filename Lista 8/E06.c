@@ -7,11 +7,12 @@
 	
 	OBS: Considerando que o número exista no vetor */
 	
-void ocorrencias(float vetor[8], float a, float b){
+void ocorrencias(float vetor[], float a, float b, int TAM){
 	
 	int i;
 	
-	for(i=0;i<8;i++){
+	// Percorrendo do indíce 0 a 7 (total de 8 posições)
+	for(i=0;i<TAM;i++){
 		
 		if(vetor[i] == a){
 			
@@ -36,7 +37,7 @@ int main(){
 	printf("Pelo numero: ");
 	scanf("%f", &y);
 	
-	ocorrencias(v, x ,y);
+	ocorrencias(v, x ,y, 8);
 	
 	for(i=0;i<8;i++){
 		

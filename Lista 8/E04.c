@@ -10,12 +10,12 @@
 	2, entre o 3o e o 4o é igual a 3, e assim
 	sucessivamente. */
 	
-void sequencia(int vetor[50]){
+void sequencia(int vetor[], int TAM){
 	
 	int i, aux=1, j=1;
 	
 	// Percorrendo do indíce 0 a 49 (total de 50 posições)
-	for(i=0;i<50;i++){
+	for(i=0;i<TAM;i++){
 		
 		// Prenchendo vetor com valor atual de aux
 		vetor[i] = aux;
@@ -33,8 +33,8 @@ int main(){
 	int i;
 	int v[50];
 	
-	// Chamando a função, passando vetor como parâmetro
-	sequencia(v);
+	// Chamando a função, passando vetor e seu tamanho como parâmetro
+	sequencia(v, 50);
 	
 	// Exibindo vetor
 	for(i=0;i<50;i++){

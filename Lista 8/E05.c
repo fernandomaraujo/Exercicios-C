@@ -8,12 +8,12 @@
 	OBS: Adaptado para 20 valores, mas a lógica 
 	funciona pra quaisquer valores pares. */
 	
-void paresImpares(int vetor[20], int vImpar[10], int vPar[10]){
+void paresImpares(int vetor[], int vImpar[], int vPar[], int TAM){
 	
 	int i, par=0, impar=0;
 	
 	// Depois de preenchido o vetor, fazer a checagem de valores pares e impares
-	for(i=0;i<20;i++){
+	for(i=0;i<TAM;i++){
 		
 		// Se impar
 		if(vetor[i] % 2 == 1 ){
@@ -49,12 +49,12 @@ int main(){
 	// Preenchendo automáticamente o vetor, com os valores de 1 a 20
 	for(i=0;i<20;i++){
 		
-		vetor[i] = cont++;
+		v[i] = cont++;
 		
 	}
 	
 	// Chamando a função, passando os parâmetros
-	paresImpares(v, vetImpar, vetPar);
+	paresImpares(v, vetImpar, vetPar, 20);
 	
 	// Exibindo vetores
 	for(i=0;i<10;i++){
