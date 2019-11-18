@@ -1,6 +1,6 @@
 # Exercícios em C
-Aqui estará as listas de exercícios de C, da matéria de FAC (Fundamentos de Algoritos da Computação), matéria do primeiro semestre do curso de Análise e Desenvolvimento de Sistemas, na FAETERJ. <br>
-Cada arquivo tem um comentário com a proposta da resolução do exercício.
+Aqui estão as listas de exercícios de C, da matéria de FAC (Fundamentos de Algoritos da Computação), matéria do primeiro semestre do curso de Análise e Desenvolvimento de Sistemas, na FAETERJ. <br>
+Cada arquivo tem um comentário com a proposta da resolução do exercício, além de comentários sobre a lógica utilizada em suas resoluções, afim de pode ajudar na compreensão da linguagem.
 
 > **Lista 1** <br> Estruturas de controle: if, else if, switch case <br>
 
