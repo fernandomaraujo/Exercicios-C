@@ -5,7 +5,7 @@ void trocarElementos(float vetorB[], int TAM){
 	int i;
 	float anterior;
 	
-	/*	Percorrendo do indíce 0 a 5 (total de 6 posições)
+	/*	Percorrendo do indíce 0 a 4 (total de 6 posições)
 		E trabalhando com duas posições de cada vez, como no caso:
 		
 		Indice 0 e 1
@@ -13,16 +13,16 @@ void trocarElementos(float vetorB[], int TAM){
 		Indice 3 e 4
 		Indice 5 e 6
 	*/
-	for(i=0;i<TAM;i+=2){	
+	for(i=0, j=1;j<TAM;i+=2, j+=2){	
 		
 		// Guarda o valor do primeiro indice
 		anterior = vetorB[i];
 		
 		// Troca o valor do primeiro indice pelo valor do próximo
-		vetorB[i] = vetorB[i+1];
+		vetorB[i] = vetorB[j];
 		
 		// E próximo indice recebe o valor do primeiro
-		vetorB[i+1] = anterior;
+		vetorB[j] = anterior;
 		
 	}
 
@@ -33,18 +33,18 @@ void trocarElementos(float vetorB[], int TAM){
 
 int main(){
 	
-	int i;
+	int i, TAM=5;
 	
 	// Variável de entrada
-	float v[6] = {2.6, 1, 4.8, 3.9, 6, 5.9};
+	float v[6] = {2.6, 1, 4.8, 3.9, 6};
 	
 	// Chamada da função, passando o vetor como parâmetro
-	trocarElementos(v, 6);
+	trocarElementos(v, TAM);
 	
 	// Os valores do vetor foram alterados, então vamos os exibir
-	for(i=0;i<6;i++){
+	for(i=0;i<TAM;i++){
 		
-		printf("%.1f ", v[i]);
+		printf("%.1f | ", v[i]);
 	}
 	
 }
