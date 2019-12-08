@@ -12,7 +12,7 @@ int seOrdenado(float vetorB[], int TAM){
 	int i, cont=0;
 	
 	// Percorrendo do indíce 0 a 9 (total de 10 posições)
-	for(i=0;i<TAM;i++){
+	for(i=0;i<TAM-1;i++){
 		
 		// Se o valor da posicão atual for MENOR do que o valor da próxima posição
 		if(vetorB[i] < vetorB[i+1]){
