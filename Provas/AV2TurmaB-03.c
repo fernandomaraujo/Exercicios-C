@@ -65,7 +65,7 @@ int main(){
 	
 	char n[27] = "Fernando Marinho de Araujo";
 	char d[11] = "16/12/1996";
-	char e[19];
+	char e[40];
 	
 	montarEmail(n, d, e);
 	
